@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.application.iiitdm.EditStudentProfile"
+    android:background="#393E41">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+
+            app:srcCompat="@drawable/student"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/editstudname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+
+
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_branch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="CSE"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+
+        android:clickable="true"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edit_rollno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+
+
+        android:clickable="true"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/editemailid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+
+
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:text="Submit"
+    android:textColor="#fff"
+    android:id="@+id/student_edit_btn"/>
+
+
+
+</LinearLayout>

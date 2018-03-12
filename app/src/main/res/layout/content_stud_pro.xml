@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stud_pro"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.application.iiitdm.StudPro"
+    tools:showIn="@layout/app_bar_stud_pro"
+    android:background="#393E41">
+
+
+    <TextView
+        android:id="@+id/txtstudname"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Anuj"
+        android:textAlignment="center"
+       android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColorHighlight="#fff"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtbranch"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:text="CSE"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColorHighlight="#fff"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtrollno"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="140dp"
+        android:text="2015140"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColorHighlight="#fff"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtemailid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="200dp"
+        android:text="anujmam@gmail.com"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textColor="#ffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColorHighlight="#fff"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="40dp"
+
+        app:srcCompat="@drawable/student"
+        />
+    <EditText
+        android:id="@+id/txtinfo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="350dp"
+        android:text="Press Required Button"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/infobac"
+        android:maxLines="1"
+        android:editable="false"
+        android:textColor="#1ABB9C"
+        android:layout_centerVertical="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/meetinbtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+
+        android:background="@drawable/animmeetbtn"/>
+    <Button
+        android:id="@+id/projectbtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/animeprojbtn" />
+
+</RelativeLayout>

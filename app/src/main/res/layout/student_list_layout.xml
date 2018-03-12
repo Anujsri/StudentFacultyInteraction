@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/studItemLayout"
+                >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#393E41">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="30dp"
+               android:layout_weight="1"
+               android:textSize="15sp"
+               android:textColor="#fff"
+               android:textAlignment="center"
+               android:id="@+id/txt_stud_name"
+               android:background="@drawable/animtextview"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:id="@+id/txt_stud_roll_no"
+                android:background="@drawable/animtextview"/>
+            </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#393E41">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textColor="#fff"
+                        android:textAlignment="center"
+                        android:id="@+id/txt_stud_email"
+                        android:background="@drawable/animtextview"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_weight="1"
+                        android:textSize="15sp"
+                        android:textColor="#fff"
+                        android:textAlignment="center"
+                        android:id="@+id/txt_stud_department"
+                        android:background="@drawable/animtextview"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/txt_stud_skills"
+                    android:textAlignment="center"
+                    android:textSize="10sp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:id="@+id/confirmity_btn"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:id="@+id/delete_request_btn"
+                    android:text="Delete Request"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

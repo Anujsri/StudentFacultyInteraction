@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testleft">
+
+
+    <EditText
+        android:id="@+id/editnamean"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/animtext"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:textColorHint="#fff"
+
+        android:layout_marginTop="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/textemail"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:hint="Email"
+        android:textColorHint="#fff"
+        android:fontFamily="casual"
+        android:background="@drawable/animtext"
+        android:layout_below="@+id/editnamean"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/textpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:hint="Password"
+        android:textColorHint="#fff"
+
+        android:background="@drawable/animtext"
+        android:layout_below="@+id/textemail"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/textpasswordretype"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:hint=" Retype Password"
+        android:textColorHint="#fff"
+        android:fontFamily="casual"
+        android:background="@drawable/animtext"
+        android:layout_below="@+id/textpassword"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/textdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:hint="Department"
+        android:textColorHint="#fff"
+        android:fontFamily="casual"
+        android:background="@drawable/animtext"
+        android:layout_below="@+id/textpasswordretype"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/textroll"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#754F5B"
+        android:hint="Roll No."
+        android:textColorHint="#fff"
+        android:fontFamily="casual"
+        android:background="@drawable/animtext"
+        android:layout_below="@+id/textdepartment"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/studreg"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/animreg"
+        android:onClick="studregClk"
+        android:layout_below="@+id/textroll"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

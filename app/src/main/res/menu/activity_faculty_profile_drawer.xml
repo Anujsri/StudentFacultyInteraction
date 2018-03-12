@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/messages_icon"
+            android:icon="@drawable/ic_messages_black_24dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/edit_profile_icon"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/website_icon"
+            android:icon="@drawable/ic_website_black_24dp"
+            android:title="College Website" />
+        <item
+            android:id="@+id/about_us_icon"
+            android:icon="@drawable/ic_aboutus_black_24dp"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Want To">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share App" />
+            <item
+                android:id="@+id/faculty_logout"
+                android:icon="@drawable/ic_assignment_return_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

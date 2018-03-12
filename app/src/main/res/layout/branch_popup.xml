@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/branch_popup"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/pop_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/btn_cse"
+        />
+
+    <Button
+        android:id="@+id/btn_cse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+
+        android:layout_below="@+id/btn_me"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+       />
+    <Button
+        android:id="@+id/btn_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ME"
+        android:layout_below="@+id/btn_ece"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+        />
+    <Button
+        android:id="@+id/btn_ece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ECE"
+        android:layout_below="@+id/btn_design"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+         />
+
+
+    <Button
+        android:id="@+id/btn_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+        android:text="Design"
+
+         />
+
+    <Button
+        android:id="@+id/btn_ns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+        android:text="Natural Science"
+        />
+</LinearLayout>

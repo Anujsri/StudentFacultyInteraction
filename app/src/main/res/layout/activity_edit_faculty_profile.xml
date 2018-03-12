@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.application.iiitdm.EditFacultyProfile"
+    android:background="#393E41">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/faculty_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edit_faculty_designation"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+
+        android:layout_alignTop="@+id/faculty_image"
+        />
+    <EditText
+        android:id="@+id/edit_faculty_depart"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_below="@+id/faculty_name"
+        />
+    <EditText
+        android:id="@+id/edit_faculty_cabin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Cabin No."
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+   />
+
+    <EditText
+        android:id="@+id/edit_faculty_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Email"
+        android:layout_marginTop="23dp"
+        android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+       />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Submit"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>

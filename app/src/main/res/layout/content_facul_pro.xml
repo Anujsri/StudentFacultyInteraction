@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.application.iiitdm.FaculPro"
+    tools:showIn="@layout/activity_facul_pro"
+    android:background="#393E41"
+    >
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:titleTextColor="#ffff"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+    <ImageView
+        android:id="@+id/facul_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/facul_nam"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:textSize="20sp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_alignTop="@+id/facul_image"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/fac_depart"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_below="@+id/facul_nam"
+        android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/fac_designation"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/animtextview"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_below="@+id/fac_depart"
+            android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/fac_cabin"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Cabin No."
+        android:textSize="20sp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_below="@+id/fac_designation"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+    android:id="@+id/fac_email"
+        android:layout_width="250dp"
+    android:layout_height="40dp"
+    android:text="Email"
+    android:textSize="20sp"
+        android:background="@drawable/animtextview"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:layout_below="@+id/fac_cabin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/stud_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fac_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    </RelativeLayout>
+</RelativeLayout>

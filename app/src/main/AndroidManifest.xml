@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application.iiitdm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpChooser"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudPro"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_stud_pro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FacultyList" />
+        <activity
+            android:name=".FaculPro"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_facul_pro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RegisterSplash"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_register_splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacultyProfile"
+            android:label="@string/title_activity_faculty_profile"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".RecFacultyList" />
+        <activity android:name=".RecyclerProjectList" />
+        <activity android:name=".ProjectAdd" />
+        <activity android:name=".StudentRequestList" />
+        <activity android:name=".EditFacultyProfile" />
+        <activity android:name=".EditStudentProfile" />
+        <activity android:name=".CollegeWebsite"></activity>
+    </application>
+
+</manifest>

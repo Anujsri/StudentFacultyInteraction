@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Iiitdm</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_stud_pro">StudPro</string>
+    <string name="title_activity_register_splash">RegisterSplash</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_facul_pro">FaculPro</string>
+    <string name="error_message_name">Enter Name</string>
+    <string name="email">Enter Email</string>
+
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_department">Department</string>
+    <string name="hint_mobile_no">Mobile No.</string>
+    <string name="hint_roll_no">Roll No</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tutorials Hub</string>
+    <string name="Rdepartment">Enter Department</string>
+    <string name="Rmobile">Enter Mobile number</string>
+    <string name="Rroll">Enter Roll  No.</string>
+    <string name="erroe_message_department">Enter Department</string>
+    <string name="error_message_mobile">Enter Mobile</string>
+    <string name="error_message_roll">Enter Roll No.</string>
+    <string name="title_activity_faculty_profile">FacultyProfile</string>
+
+</resources>
