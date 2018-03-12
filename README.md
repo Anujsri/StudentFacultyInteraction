@@ -1,0 +1,2 @@
+# StudentFacultyInteraction
+It provides a platform to the student to get an appointment for meeting with faculty, and student can also find how many projects are running under a faculty so he/she can work on that project. And we can also see whether faculty is in his/her cabin or not, so a student can meet him/her. It also provides chatting application so a student can easily communicate with faculty.  
